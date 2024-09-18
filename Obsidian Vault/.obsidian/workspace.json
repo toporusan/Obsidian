@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "20908ebc8dce6696",
+    "id": "13abcb40a1791e4a",
     "type": "split",
     "children": [
       {
-        "id": "bceed3e351391676",
+        "id": "365f19d23b2e4422",
         "type": "tabs",
         "children": [
           {
-            "id": "8725167f4ee23b00",
+            "id": "fe668e3ef38d8705",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ae04a40afa6cefbd",
+    "id": "6b9010f14ab7e4c9",
     "type": "split",
     "children": [
       {
-        "id": "763d05542042b8b8",
+        "id": "0394ce8795500865",
         "type": "tabs",
         "children": [
           {
-            "id": "c76ec7664d16ef7d",
+            "id": "749a6a9d7d7b1daf",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "7d15fd7a2d02f0ca",
+            "id": "12d31f0300d40c0b",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "39cde730816cdce9",
+            "id": "7cf02d315a9c0089",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,15 +72,15 @@
     "width": 300
   },
   "right": {
-    "id": "75da8b4966c7557b",
+    "id": "b82fc951c6606cd3",
     "type": "split",
     "children": [
       {
-        "id": "51506ecbca16799e",
+        "id": "e14d45287d085adf",
         "type": "tabs",
         "children": [
           {
-            "id": "057be8ac85e44a49",
+            "id": "43f91021996b4a9d",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -97,7 +97,7 @@
             }
           },
           {
-            "id": "10f62a32c46e69b6",
+            "id": "1deba535ef4b6d04",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -109,7 +109,7 @@
             }
           },
           {
-            "id": "0d75a7d52b3fb10b",
+            "id": "001beb4731fe0d51",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,7 +120,7 @@
             }
           },
           {
-            "id": "fe6601e55906661d",
+            "id": "94d02ea0b3b84d65",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -146,19 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8725167f4ee23b00",
+  "active": "fe668e3ef38d8705",
   "lastOpenFiles": [
-    "0.Для тестов/Для тестов event.md",
-    "0.Для тестов/Учетные записи.md",
-    "0.Для тестов/1. Для багов.md",
     "0.Для тестов/Богдан скрипт для бага.md",
-    "Данные для моков/УИ пользователя МОК/1) check-photo - отправл вфото для УИ.md",
-    "Данные для моков/УИ пользователя МОК/2) client - проверка данных клиента.md",
-    "Данные для моков/УИ пользователя МОК/Сам хеш моего лица BASE 64.md",
-    "2024-09-13.md",
-    "Untitled.canvas",
-    "0.Для тестов",
-    "Данные для моков/УИ пользователя МОК",
-    "Данные для моков"
+    "0.Для тестов/Учетные записи.md",
+    "0.Для тестов/Для тестов event.md",
+    "0.Для тестов/1. Для багов.md"
   ]
 }
