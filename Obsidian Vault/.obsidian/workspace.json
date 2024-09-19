@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "0.Для тестов/Учетные записи.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1f2a2482df0a7426",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "0.Для тестов/1. Для багов.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5101fc5fe154c491",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "b82fc951c6606cd3",
@@ -85,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0.Для тестов/1. Для багов.md",
+                "file": "0.Для тестов/Учетные записи.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0.Для тестов/1. Для багов.md",
+                "file": "0.Для тестов/Учетные записи.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0.Для тестов/1. Для багов.md"
+                "file": "0.Для тестов/Учетные записи.md"
               }
             }
           }
@@ -148,9 +172,12 @@
   },
   "active": "fe668e3ef38d8705",
   "lastOpenFiles": [
-    "0.Для тестов/Богдан скрипт для бага.md",
+    "Untitled.md",
+    "Данные для моков/УИ пользователя МОК/2) client - проверка данных клиента.md",
+    "0.Для тестов/1. Для багов.md",
     "0.Для тестов/Учетные записи.md",
+    "0.Для тестов/Богдан скрипт для бага.md",
     "0.Для тестов/Для тестов event.md",
-    "0.Для тестов/1. Для багов.md"
+    "Данные для моков/УИ пользователя МОК/1) check-photo - отправл вфото для УИ.md"
   ]
 }
