@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "365f19d23b2e4422",
+        "id": "4580853319590555",
         "type": "tabs",
         "children": [
           {
-            "id": "fe668e3ef38d8705",
+            "id": "357084e279e9d3b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.Для тестов/0. Учетные записи.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1f2a2482df0a7426",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Данные для моков/УИ пользователя МОК/1) check-photo - отправл вфото для УИ.md",
+                "file": "1.Для тестов/1. Для багов.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.Для тестов/0. Учетные записи.md",
+                "file": "1.Для тестов/1. Для багов.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1.Для тестов/0. Учетные записи.md",
+                "file": "1.Для тестов/1. Для багов.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.Для тестов/0. Учетные записи.md"
+                "file": "1.Для тестов/1. Для багов.md"
               }
             }
           }
@@ -158,16 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "749a6a9d7d7b1daf",
+  "active": "357084e279e9d3b7",
   "lastOpenFiles": [
+    "Untitled.md",
+    "1.Для тестов/1. Для багов.md",
+    "1.Для тестов/0. Учетные записи.md",
+    "Данные для моков/УИ пользователя МОК/1) check-photo - отправл вфото для УИ.md",
+    "2. Cred/Для тестовых баз данных.md",
     "1.Для тестов/2. Для тестов event.md",
     "2. Cred/Богдан скрипт для бага.md",
-    "2. Cred/Base.md",
-    "1.Для тестов/0. Учетные записи.md",
     "2. Cred",
-    "Untitled.md",
-    "Данные для моков/УИ пользователя МОК/1) check-photo - отправл вфото для УИ.md",
-    "1.Для тестов/1. Для багов.md",
     "Данные для моков/УИ пользователя МОК/2) client - проверка данных клиента.md"
   ]
 }
