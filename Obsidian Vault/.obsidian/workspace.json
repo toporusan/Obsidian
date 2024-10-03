@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.Для тестов/1. Для багов.md",
+                "file": "1.Для тестов/0. Учетные записи.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.Для тестов/1. Для багов.md",
+                "file": "1.Для тестов/0. Учетные записи.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1.Для тестов/1. Для багов.md",
+                "file": "1.Для тестов/0. Учетные записи.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.Для тестов/1. Для багов.md"
+                "file": "1.Для тестов/0. Учетные записи.md"
               }
             }
           }
@@ -146,16 +146,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "357084e279e9d3b7",
+  "active": "749a6a9d7d7b1daf",
   "lastOpenFiles": [
-    "Untitled.md",
     "1.Для тестов/1. Для багов.md",
-    "1.Для тестов/0. Учетные записи.md",
+    "Данные для моков/УИ пользователя МОК/Расул хеш лица BASE 64 ТЕСТ.md",
+    "Данные для моков/УИ пользователя МОК/Сам хеш моего лица BASE 64.md",
+    "Данные для моков/УИ пользователя МОК/2) client - проверка данных клиента.md",
     "Данные для моков/УИ пользователя МОК/1) check-photo - отправл вфото для УИ.md",
+    "Untitled.md",
+    "1.Для тестов/0. Учетные записи.md",
     "2. Cred/Для тестовых баз данных.md",
     "1.Для тестов/2. Для тестов event.md",
     "2. Cred/Богдан скрипт для бага.md",
-    "2. Cred",
-    "Данные для моков/УИ пользователя МОК/2) client - проверка данных клиента.md"
+    "2. Cred"
   ]
 }
