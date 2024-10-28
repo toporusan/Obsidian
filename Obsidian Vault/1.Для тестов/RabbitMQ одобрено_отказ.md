@@ -1,0 +1,111 @@
+Для того чтобы одобрить или отказать кредит необходимо через RabbitMQ прокинуть следующие запросы: 
+
+Елма (старое)
+http://192.168.159.9:15672/#/queues/%2F/ELMAtoDBO
+Камунда:
+http://192.168.159.9:15672/#/queues/%2F/FastMicroloanToMBGW
+
+**Для отказа:**
+
+**Поменять "unique_id": "14359122", и  "application_status": "6",** 
+
+{
+    "InstanceID": 2355839,
+    "TransactionID": 366903,
+    "MessageType": "DataRequest",
+    "Action": "Dbo",
+    "Method": "FastMicroloanDbo",
+    "MessageContent": {
+        "system": {
+            "unique_id": "14359122",
+            "process_name": "FastMicroloanDbo",
+            "application_status": "6",
+            "reasonMsg": "Из-за задолженностей",
+            "pre_order": false,
+            "is_confirmed": false,
+            "must_pre_order": false
+        },
+        "pay_by_this_card": false
+    }
+}
+
+**Статусы:**
+* STATUS: Paid Products */ PAYMENT_REQUIRED(-1), 
+* BAD_RESPONSE_FROM_ELMA(400), 
+* UPDATE_REQUIRED(426), 
+* REGISTRATION(1), 
+* ELMA_OFFERED(2), 
+* CLIENT_APPROVED(3), 
+* SUCCESS(4), 
+* REJECTED(5), 
+* REJECTED_FROM_SCORING(6), 
+* REJECTED_FROM_CLIENT(7),
+* TIMEOUT_FORM(8), 
+* OFFER_TO_CLIENT(9), 
+* TEXNOMART_OFFER(14), 
+* // when mobile-back received offer merchant then sends unique id to elma since elma does not have uniqueId RECEIVED_MERCHANT_OFFER(15),
+* BAD_CLIENT_FORM(10);
+
+
+**Для одобрения:**
+**Поменять "unique_id": "14359122"
+
+{
+    "TransactionID": 2644698,
+    "TransactionRequestID": 0,
+    "InstanceID": 2644698,
+    "MessageType": "DataRequest",
+    "Action": "",
+    "Method": "FastMicroloanDbo",
+    "MessageContent": {
+        "client_info": {
+            "name": "NOZIMA",
+            "surname": "ABDUSATTOROVA",
+            "pantronomic": "NUSRATDJANOVNA",
+            "pinfl": "42301836840027",
+            "codWord": "",
+            "passport_series": "AB",
+            "passport_number": "8797716",
+            "phone_number": "998990028183",
+            "birth_date": "1983-01-23",
+            "has_nci": true,
+            "client_type": 4
+        },
+        "system": {
+            "claim_id": "500025362",
+            "pre_order": false,
+            "must_pre_order": false,
+            "unique_id": "14357979", **// Take from DB** 
+            "process_name": "FastMicroloanDbo",
+            "application_status": 2,
+            "language": null,
+            "merchant": null
+        },
+        "offers": [
+            {
+                "product_id": 105,
+                "loan_amt": 4130000000.0,
+                "scoring_result": 2,
+                "scoring_amt": 4130000000.0,
+                "month_amt": 1000000.0,
+                "rate": 42.0,
+                "term": 36,
+                "term_line": 36,
+                "term_limit": 0,
+                "month_rate": 1.17,
+                "full_amt": 4130000000.0,
+                "apr": 3.0,
+                "epr": 51.1,
+                "pack_name": "",
+                "pack_payment": 0.0,
+                "packageid": 0,
+                "grace": 0,
+                "loss_rate": 0.0,
+                "endDateContract": "10.06.2027",
+                "contract_number": 2483,
+                "application_number": 4653
+            }
+        ]
+    }
+}
+
